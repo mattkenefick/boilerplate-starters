@@ -3,6 +3,7 @@
 	variables.className = outputPathRelative.split('.').slice(0, -1).join('.').split('/').join('-').split('App-')[1].toLowerCase()
 	variables.projectName = variables.package.template?.name || variables.package.name.split('-').map(str => str.charAt(0).toUpperCase() + str.slice(1)).join('')
 
+
 }}}<template>
 	<section class="${{ variables.className }}"></section>
 </template>
