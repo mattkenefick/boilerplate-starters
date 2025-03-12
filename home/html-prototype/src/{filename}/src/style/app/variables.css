@@ -1,0 +1,80 @@
+:root {
+	--animation-duration: 0.18s;
+
+	--color-black: #000;
+	--color-disabled-foreground: #666;
+	--color-error: #e9443f;
+	--color-red: #e9443f;
+	--color-white: #fff;
+
+	--ease-in-quad: cubic-bezier(0.55, 0.085, 0.68, 0.53);
+	--ease-in-cubic: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+	--ease-in-quart: cubic-bezier(0.895, 0.03, 0.685, 0.22);
+	--ease-in-quint: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+	--ease-in-expo: cubic-bezier(0.95, 0.05, 0.795, 0.035);
+	--ease-in-circ: cubic-bezier(0.6, 0.04, 0.98, 0.335);
+	--ease-in-out-quad: cubic-bezier(0.455, 0.03, 0.515, 0.955);
+	--ease-in-out-cubic: cubic-bezier(0.645, 0.045, 0.355, 1);
+	--ease-in-out-quart: cubic-bezier(0.77, 0, 0.175, 1);
+	--ease-in-out-quint: cubic-bezier(0.86, 0, 0.07, 1);
+	--ease-in-out-expo: cubic-bezier(1, 0, 0, 1);
+	--ease-in-out-circ: cubic-bezier(0.785, 0.135, 0.15, 0.86);
+	--ease-out-quad: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+	--ease-out-cubic: cubic-bezier(0.215, 0.61, 0.355, 1);
+	--ease-out-quart: cubic-bezier(0.165, 0.84, 0.44, 1);
+	--ease-out-quint: cubic-bezier(0.23, 1, 0.32, 1);
+	--ease-out-expo: cubic-bezier(0.19, 1, 0.22, 1);
+	--ease-out-circ: cubic-bezier(0.075, 0.82, 0.165, 1);
+
+	--font-family-primary: 'DM Sans', Helvetica, sans-serif;
+
+	--font-size-large: 1.5rem;
+	--font-size-medium: 1.125rem;
+	--font-size-normal: 1rem;
+	--font-size-small: 0.875rem;
+	--font-size-x-small: 0.75rem;
+	--font-size-smallest: 0.625rem;
+
+	--font-weight-extra-light: 100;
+	--font-weight-light: 200;
+	--font-weight-book: 300;
+	--font-weight-regular: 400;
+	--font-weight-medium: 500;
+	--font-weight-semibold: 600;
+	--font-weight-bold: 700;
+	--font-weight-black: 800;
+	--font-weight-extra-black: 900;
+
+	--modal-background: rgba(0, 0, 0, 0.9);
+	--modal-foreground: #fff;
+
+	--scrollbar-thumb-color: #444;
+	--scrollbar-thumb-hover-color: #666;
+	--scrollbar-track-color: #000;
+	--scrollbar-size: 8px;
+
+	--theme-divider-color: #373737;
+	--theme-divider-color-dark: #202020;
+	--theme-general-background: var(--color-black);
+	--theme-general-foreground: var(--color-white);
+	--theme-form-control-background: #232323;
+	--theme-form-control-color: #fff;
+	--theme-form-label-font-size: 0.875rem;
+	--theme-font-size: var(--font-size-normal);
+	--theme-font-weight: var(--font-weight-regular);
+
+	--z-bottom: 1;
+	--z-page-bottom: 200;
+	--z-page-mid: 205;
+	--z-page-top: 209;
+	--z-header-bottom: 210;
+	--z-header-mid: 215;
+	--z-header-top: 219;
+	--z-panel-bottom: 220;
+	--z-panel-mid: 225;
+	--z-panel-top: 229;
+	--z-modal-bottom: 230;
+	--z-modal-mid: 235;
+	--z-modal-top: 239;
+	--z-top: 299;
+}

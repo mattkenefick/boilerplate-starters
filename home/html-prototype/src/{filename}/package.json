@@ -1,0 +1,14 @@
+{
+	"author": "Matt Kenefick <matt@polymermallard.com>",
+	"description": "Prototype for EXAMPLE PROJECT",
+	"devDependencies": {
+		"http-server": "^14.1.1"
+	},
+	"license": "MIT",
+	"name": "${input.filename}",
+	"scripts": {
+		"serve": "http-server src"
+	},
+	"source": "src/index.html",
+	"version": "0.0.1"
+}
